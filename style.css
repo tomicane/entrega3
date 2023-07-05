@@ -1,0 +1,140 @@
+
+
+:root {
+  --background: rgb(0, 0, 0);
+  --primary: #ff781e;
+  --secondary: #e9640b;
+  --btn-lg: #db7a0a;
+  --bg-azul-10: #cf520a;
+  -bg-white: #e46b09;
+  --bg-electric: #d45501;
+  --nav-bg: #b83e06;
+  --text-gray: #fcf9f9;
+  --text_white: #0a0a0a;
+  --fire: #ff6d00;
+  --electric: #be3e02;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sams-serif;
+}
+
+header {
+  background: var(--background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  gap: 5rem;
+}
+
+.navbar-list {
+  gap: 1rem;
+}
+
+.navbar-list a {
+  color: var(--text-gray);
+  font-size: 14px;
+}
+
+
+.logo {
+  height: 90px;
+padding: 1rem;
+}
+
+.Foto2 {
+    height: 450px;
+    
+}
+
+main {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+#hero {
+  max-width: 1200px;
+  margin-top: 65px;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 50%;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: 800;
+  min-width: 500px;
+  width: 80%;
+}
+
+.hero-info p {
+  font-size: 14px;
+  width: 70%;
+  color: var(--text-gray);
+}
+
+.hero-info b {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.hero-info a {
+  color: var(--text_white);
+  background: var(--primary);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.info-pag {
+  background: rgb(235, 96, 4);
+  display: flex;
+  padding: 15px 100px;
+  width: 70%;
+  border-radius: 15px;
+  margin-bottom: 4rem;
+}
+
+.info-pag p {
+    color: #0a0a0a;
+}
+
+.botones {
+  margin: 1rem 1rem;
+  
+}
+
+
